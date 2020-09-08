@@ -16,8 +16,30 @@
 
  header {
      width: 100%;
-     height: 140px;
+     height: 150px;
      display: grid;
      grid-template-rows: 1fr 1fr;
-
  }
+
+ header .header-icons-container {
+     width: 100%;
+     /*min-height: 50px;*/
+     display: grid;
+     background-color: #47cfac;
+ }
+
+ .header-icons-container .icons {
+     width: 300px;
+     height: auto;
+     display: flex;
+     justify-items: flex-end;
+     align-items: center;
+     justify-content: space-between;
+     justify-self: end;
+     margin-right: 50px;
+ }
+
+ .header-icons-container .icons img {
+     width: 50px;
+ }
+
